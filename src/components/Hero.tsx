@@ -26,9 +26,15 @@ const Hero = () => {
           </span>
         </div>
 
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-8">
-          Human <span className="text-primary">+</span> AI Synergy
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-3">
+          <span className="text-primary">sy</span>
+          <span className="text-foreground">NRG</span>
+          <span className="text-primary">y</span>
         </h1>
+        
+        <p className="text-xl md:text-2xl font-medium text-muted-foreground mb-8">
+          Human <span className="text-primary">+</span> AI Synergy
+        </p>
         
         <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed font-light mb-10 max-w-2xl">
           A living record of how I use AI to think clearly, reduce cognitive load, 
