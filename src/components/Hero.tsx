@@ -2,9 +2,9 @@ const Hero = () => {
   return (
     <section className="py-20 md:py-32">
       <div className="max-w-3xl">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-balance">
-          NRG Operating System
-        </h1>
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-balance">
+        <span className="text-primary">sy</span>NRG<span className="text-primary">y</span>
+      </h1>
         <p className="text-lg md:text-xl text-muted-foreground leading-relaxed italic mb-8">
           A living record of how I use AI to think clearly, reduce cognitive load, 
           and scale judgment — individually and with my team.
