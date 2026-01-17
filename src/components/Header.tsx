@@ -12,26 +12,19 @@ const Header = () => {
         <Link to="/" className="text-sm font-semibold text-foreground hover:text-primary transition-colors">
           <span className="text-primary">sy</span>NRG<span className="text-primary">y</span>
         </Link>
-        <div className="flex items-center gap-2">
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={toggleTheme}
-            className="h-9 w-9"
-          >
-            {theme === "dark" ? (
-              <Sun className="h-4 w-4" />
-            ) : (
-              <Moon className="h-4 w-4" />
-            )}
-            <span className="sr-only">Toggle theme</span>
-          </Button>
-          <Link to="/admin">
-            <Button variant="ghost" size="sm" className="text-muted-foreground text-xs">
-              Admin
-            </Button>
-          </Link>
-        </div>
+        <Button
+          variant="ghost"
+          size="icon"
+          onClick={toggleTheme}
+          className="h-9 w-9"
+        >
+          {theme === "dark" ? (
+            <Sun className="h-4 w-4" />
+          ) : (
+            <Moon className="h-4 w-4" />
+          )}
+          <span className="sr-only">Toggle theme</span>
+        </Button>
       </div>
     </header>
   );
