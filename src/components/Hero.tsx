@@ -1,5 +1,5 @@
 import { Brain, Sparkles, Zap } from "lucide-react";
-import HeroIllustration from "./HeroIllustration";
+import heroImage from "@/assets/hero-image.png";
 
 const Hero = () => {
   return (
@@ -76,9 +76,16 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Illustration */}
+        {/* Hero Image */}
         <div className="flex-1 max-w-md lg:max-w-lg xl:max-w-xl hidden md:block animate-fade-in animation-delay-500">
-          <HeroIllustration />
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-primary/10 group">
+            <img 
+              src={heroImage} 
+              alt="Leadership insights" 
+              className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent pointer-events-none" />
+          </div>
         </div>
       </div>
     </section>
