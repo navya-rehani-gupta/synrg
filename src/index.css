@@ -2,87 +2,87 @@
 @tailwind components;
 @tailwind utilities;
 
-/* NRG Operating System — Clean, calm design with subtle sage accent */
+/* syNRGy — Calm, serene design with soft teal and warm stone accents */
 
 @layer base {
   :root {
-    --background: 0 0% 99%;
-    --foreground: 220 20% 15%;
+    --background: 45 30% 98%;
+    --foreground: 220 15% 20%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 220 20% 15%;
+    --card: 45 25% 99%;
+    --card-foreground: 220 15% 20%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 20% 15%;
+    --popover: 45 25% 99%;
+    --popover-foreground: 220 15% 20%;
 
-    --primary: 150 25% 35%;
+    --primary: 175 35% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 150 15% 95%;
-    --secondary-foreground: 150 25% 30%;
+    --secondary: 175 20% 94%;
+    --secondary-foreground: 175 35% 35%;
 
-    --muted: 220 15% 96%;
-    --muted-foreground: 220 10% 50%;
+    --muted: 45 15% 94%;
+    --muted-foreground: 220 10% 45%;
 
-    --accent: 150 20% 92%;
-    --accent-foreground: 150 30% 25%;
+    --accent: 175 25% 92%;
+    --accent-foreground: 175 35% 30%;
 
-    --destructive: 0 70% 50%;
+    --destructive: 0 60% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 15% 90%;
-    --input: 220 15% 90%;
-    --ring: 150 25% 35%;
+    --border: 45 15% 88%;
+    --input: 45 15% 88%;
+    --ring: 175 35% 45%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 150 25% 35%;
+    --sidebar-background: 45 20% 97%;
+    --sidebar-foreground: 220 10% 30%;
+    --sidebar-primary: 175 35% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 175 20% 94%;
+    --sidebar-accent-foreground: 175 35% 35%;
+    --sidebar-border: 45 15% 90%;
+    --sidebar-ring: 175 35% 45%;
   }
 
   .dark {
-    --background: 220 25% 8%;
-    --foreground: 220 15% 92%;
+    --background: 220 20% 7%;
+    --foreground: 45 15% 90%;
 
-    --card: 220 25% 10%;
-    --card-foreground: 220 15% 92%;
+    --card: 220 18% 10%;
+    --card-foreground: 45 15% 90%;
 
-    --popover: 220 25% 10%;
-    --popover-foreground: 220 15% 92%;
+    --popover: 220 18% 10%;
+    --popover-foreground: 45 15% 90%;
 
-    --primary: 150 30% 50%;
-    --primary-foreground: 220 25% 8%;
+    --primary: 175 45% 55%;
+    --primary-foreground: 220 20% 7%;
 
-    --secondary: 220 20% 15%;
-    --secondary-foreground: 150 25% 70%;
+    --secondary: 220 15% 14%;
+    --secondary-foreground: 175 35% 70%;
 
-    --muted: 220 20% 15%;
-    --muted-foreground: 220 15% 60%;
+    --muted: 220 15% 14%;
+    --muted-foreground: 45 10% 55%;
 
-    --accent: 220 20% 15%;
-    --accent-foreground: 150 30% 65%;
+    --accent: 220 15% 14%;
+    --accent-foreground: 175 40% 65%;
 
-    --destructive: 0 60% 45%;
+    --destructive: 0 55% 45%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 20% 18%;
-    --input: 220 20% 18%;
-    --ring: 150 30% 50%;
+    --border: 220 15% 16%;
+    --input: 220 15% 16%;
+    --ring: 175 45% 55%;
 
-    --sidebar-background: 220 25% 10%;
-    --sidebar-foreground: 220 15% 85%;
-    --sidebar-primary: 150 30% 50%;
+    --sidebar-background: 220 18% 10%;
+    --sidebar-foreground: 45 10% 80%;
+    --sidebar-primary: 175 45% 55%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 220 20% 15%;
-    --sidebar-accent-foreground: 220 15% 85%;
-    --sidebar-border: 220 20% 18%;
-    --sidebar-ring: 150 30% 50%;
+    --sidebar-accent: 220 15% 14%;
+    --sidebar-accent-foreground: 45 10% 80%;
+    --sidebar-border: 220 15% 16%;
+    --sidebar-ring: 175 45% 55%;
   }
 }
 
