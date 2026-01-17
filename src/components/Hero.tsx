@@ -78,13 +78,13 @@ const Hero = () => {
 
         {/* Hero Image */}
         <div className="flex-1 max-w-xs md:max-w-md lg:max-w-lg xl:max-w-xl animate-fade-in animation-delay-500">
-          <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-primary/10 group">
+          <div className="relative aspect-square rounded-full overflow-hidden shadow-2xl shadow-primary/20 group ring-4 ring-primary/20 ring-offset-4 ring-offset-background">
             <img 
               src={heroImage} 
               alt="Leadership insights" 
-              className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/30 to-transparent pointer-events-none" />
           </div>
         </div>
       </div>
