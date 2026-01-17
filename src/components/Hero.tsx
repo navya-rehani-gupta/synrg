@@ -26,10 +26,8 @@ const Hero = () => {
           </span>
         </div>
 
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-8">
-          <span className="text-primary">sy</span>
-          <span className="text-foreground">NRG</span>
-          <span className="text-primary">y</span>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-8">
+          Human <span className="text-primary">+</span> AI Synergy
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed font-light mb-10 max-w-2xl">
