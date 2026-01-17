@@ -77,7 +77,7 @@ const Hero = () => {
         </div>
 
         {/* Hero Image */}
-        <div className="flex-1 max-w-md lg:max-w-lg xl:max-w-xl hidden md:block animate-fade-in animation-delay-500">
+        <div className="flex-1 max-w-xs md:max-w-md lg:max-w-lg xl:max-w-xl animate-fade-in animation-delay-500">
           <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-primary/10 group">
             <img 
               src={heroImage} 
