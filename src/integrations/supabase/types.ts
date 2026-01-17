@@ -14,27 +14,7 @@ export type Database = {
   }
   public: {
     Tables: {
-      log_entries: {
-        Row: {
-          created_at: string
-          description: string
-          entry_date: string
-          id: string
-        }
-        Insert: {
-          created_at?: string
-          description: string
-          entry_date?: string
-          id?: string
-        }
-        Update: {
-          created_at?: string
-          description?: string
-          entry_date?: string
-          id?: string
-        }
-        Relationships: []
-      }
+      [_ in never]: never
     }
     Views: {
       [_ in never]: never
