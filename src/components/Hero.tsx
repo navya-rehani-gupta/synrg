@@ -1,5 +1,5 @@
 import { Brain, Sparkles, Zap } from "lucide-react";
-import heroImage from "@/assets/hero-image.png";
+import heroImage from "@/assets/hero-headshot.jpg";
 
 const Hero = () => {
   return (
