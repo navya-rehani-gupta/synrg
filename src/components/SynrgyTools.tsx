@@ -31,7 +31,7 @@ const SynrgyTools = () => {
             <div
               key={index}
               ref={ref as React.RefObject<HTMLDivElement>}
-              className={`bg-accent/50 rounded-lg p-5 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}
+              className={`bg-accent/50 rounded-lg p-5 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="flex items-center gap-3">
