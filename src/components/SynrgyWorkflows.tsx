@@ -1,4 +1,3 @@
-import { ArrowRight } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const workflows = [
@@ -41,9 +40,8 @@ const SynrgyWorkflows = () => {
               className={`bg-accent/50 rounded-lg p-6 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="flex items-center justify-between">
+              <div>
                 <span className="font-semibold text-foreground">{workflow.name}</span>
-                <ArrowRight className="w-4 h-4 text-primary" />
               </div>
               <p className="text-sm text-muted-foreground mt-2">{workflow.flow}</p>
             </div>
