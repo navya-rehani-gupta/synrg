@@ -5,6 +5,7 @@ import TeamUsage from "@/components/TeamUsage";
 import Principles from "@/components/Principles";
 import SynrgyWorkflows from "@/components/SynrgyWorkflows";
 import SynrgyTools from "@/components/SynrgyTools";
+import SynrgyMeta from "@/components/SynrgyMeta";
 
 const Index = () => {
   return (
@@ -22,6 +23,8 @@ const Index = () => {
         <SynrgyWorkflows />
         <div className="h-px bg-border" />
         <SynrgyTools />
+        <div className="h-px bg-border" />
+        <SynrgyMeta />
         <footer className="py-12 text-center text-sm text-muted-foreground">
           © {new Date().getFullYear()}
         </footer>
