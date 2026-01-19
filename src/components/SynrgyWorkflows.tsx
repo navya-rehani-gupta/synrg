@@ -13,6 +13,10 @@ const workflows = [
     name: "Code → Deploy",
     flow: "Claude Code → GitHub → Lovable",
   },
+  {
+    name: "Research → Deploy",
+    flow: "Claude Code (gather links) → HTML → Vercel",
+  },
 ];
 
 const SynrgyWorkflows = () => {
