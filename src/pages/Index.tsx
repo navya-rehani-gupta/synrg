@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import HowIUseAI from "@/components/HowIUseAI";
 import TeamUsage from "@/components/TeamUsage";
 import Principles from "@/components/Principles";
+import SynrgyWorkflows from "@/components/SynrgyWorkflows";
+import SynrgyTools from "@/components/SynrgyTools";
 
 const Index = () => {
   return (
@@ -16,6 +18,10 @@ const Index = () => {
         <TeamUsage />
         <div className="h-px bg-border" />
         <Principles />
+        <div className="h-px bg-border" />
+        <SynrgyWorkflows />
+        <div className="h-px bg-border" />
+        <SynrgyTools />
         <footer className="py-12 text-center text-sm text-muted-foreground">
           © {new Date().getFullYear()}
         </footer>
