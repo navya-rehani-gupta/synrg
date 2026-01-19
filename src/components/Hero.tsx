@@ -50,8 +50,11 @@ const Hero = () => {
             <span className="text-primary inline-block animate-slide-up animation-delay-200">y</span>
           </h1>
           
-          <p className="text-xl md:text-2xl font-medium text-muted-foreground mb-8 animate-fade-in animation-delay-300">
-            Human <span className="text-primary">+</span> AI Synergy
+          <p className="text-xl md:text-2xl font-medium text-muted-foreground mb-2 animate-fade-in animation-delay-300">
+            Me <span className="text-primary">+</span> AI Synergy
+          </p>
+          <p className="text-sm text-muted-foreground mb-8 animate-fade-in animation-delay-400">
+            By Navya Rehani Gupta (NRG)
           </p>
           
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed font-light mb-10 max-w-2xl animate-fade-in animation-delay-500">
