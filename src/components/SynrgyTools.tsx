@@ -5,7 +5,7 @@ const tools = [
   { name: "Claude Code", purpose: "Local editing, automation, push to GitHub" },
   { name: "Granola", purpose: "AI meeting notes and summaries" },
   { name: "Lovable", purpose: "Build and deploy web apps from prompts" },
-  { name: "Slidev", purpose: "Beautiful decks from markdown" },
+  { name: "Vercel", purpose: "Instant web deploy from terminal" },
   { name: "Zapier", purpose: "Connect everything automatically" },
 ];
 
