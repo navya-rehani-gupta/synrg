@@ -14,15 +14,25 @@ const Index = () => {
       <main className="container max-w-4xl mx-auto px-6 pt-20">
         <Hero />
         <div className="h-px bg-border" />
-        <HowIUseAI />
+        <section id="how-i-use-ai">
+          <HowIUseAI />
+        </section>
         <div className="h-px bg-border" />
-        <TeamUsage />
+        <section id="team-usage">
+          <TeamUsage />
+        </section>
         <div className="h-px bg-border" />
-        <Principles />
+        <section id="principles">
+          <Principles />
+        </section>
         <div className="h-px bg-border" />
-        <SynrgyWorkflows />
+        <section id="workflows">
+          <SynrgyWorkflows />
+        </section>
         <div className="h-px bg-border" />
-        <SynrgyTools />
+        <section id="tools">
+          <SynrgyTools />
+        </section>
         <div className="h-px bg-border" />
         <SynrgyMeta />
         <footer className="py-12 text-center text-sm text-muted-foreground">
