@@ -2,11 +2,11 @@ import { Wrench } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const tools = [
-  { name: "Claude Code", purpose: "Local editing, automation, push to GitHub" },
-  { name: "Granola", purpose: "AI meeting notes and summaries" },
-  { name: "Lovable", purpose: "Build and deploy web apps from prompts" },
-  { name: "Vercel", purpose: "Instant web deploy from terminal" },
-  { name: "Zapier", purpose: "Connect everything automatically" },
+  { name: "Claude Code", purpose: "Local editing, automation, push to GitHub", setup: "1 hr", savedPerWeek: "15 hrs" },
+  { name: "Granola", purpose: "AI meeting notes and summaries", setup: "15 min", savedPerWeek: "3 hrs" },
+  { name: "Lovable", purpose: "Build and deploy web apps from prompts", setup: "30 min", savedPerWeek: "5 hrs" },
+  { name: "Vercel", purpose: "Instant web deploy from terminal", setup: "10 min", savedPerWeek: "1 hr" },
+  { name: "Zapier", purpose: "Connect everything automatically", setup: "1 hr", savedPerWeek: "2 hrs" },
 ];
 
 const SynrgyTools = () => {
@@ -39,6 +39,10 @@ const SynrgyTools = () => {
                 <span className="font-semibold text-foreground">{tool.name}</span>
               </div>
               <p className="text-sm text-muted-foreground mt-2">{tool.purpose}</p>
+              <div className="flex gap-4 mt-3 text-xs">
+                <span className="text-muted-foreground">Setup: <span className="text-foreground font-medium">{tool.setup}</span></span>
+                <span className="text-muted-foreground">Saves: <span className="text-green-600 font-medium">{tool.savedPerWeek}/wk</span></span>
+              </div>
             </div>
           );
         })}
