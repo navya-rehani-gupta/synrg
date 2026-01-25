@@ -1,23 +1,25 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Moon, Sun, Menu, X } from "lucide-react";
+import { Moon, Sun, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "@/hooks/use-theme";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { useActiveSection } from "@/hooks/useActiveSection";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const navItems = [
-  { label: "How I Use AI", href: "#how-i-use-ai" },
-  { label: "Team", href: "#team-usage" },
-  { label: "Principles", href: "#principles" },
-  { label: "Workflows", href: "#workflows" },
-  { label: "Tools", href: "#tools" },
+  { label: "How I Use AI", href: "#how-i-use-ai", id: "how-i-use-ai" },
+  { label: "Team", href: "#team-usage", id: "team-usage" },
+  { label: "Principles", href: "#principles", id: "principles" },
+  { label: "Workflows", href: "#workflows", id: "workflows" },
+  { label: "Tools", href: "#tools", id: "tools" },
 ];
 
 const Header = () => {
   const { theme, toggleTheme } = useTheme();
   const isMobile = useIsMobile();
   const [open, setOpen] = useState(false);
+  const activeSection = useActiveSection(navItems.map(item => item.id));
 
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
@@ -41,7 +43,11 @@ const Header = () => {
               <button
                 key={item.href}
                 onClick={() => scrollToSection(item.href)}
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                className={`text-sm transition-colors ${
+                  activeSection === item.id 
+                    ? "text-primary font-medium" 
+                    : "text-muted-foreground hover:text-foreground"
+                }`}
               >
                 {item.label}
               </button>
@@ -79,7 +85,11 @@ const Header = () => {
                     <button
                       key={item.href}
                       onClick={() => scrollToSection(item.href)}
-                      className="text-left text-base text-muted-foreground hover:text-foreground transition-colors py-2"
+                      className={`text-left text-base transition-colors py-2 ${
+                        activeSection === item.id 
+                          ? "text-primary font-medium" 
+                          : "text-muted-foreground hover:text-foreground"
+                      }`}
                     >
                       {item.label}
                     </button>
