@@ -9,9 +9,9 @@ const tools: Array<{
   savedPerWeek: string;
   icon: LucideIcon;
 }> = [
-  { name: "AI Coding Agent", purpose: "Build, edit, and ship from natural language", setup: "1 hr", savedPerWeek: "15 hrs", icon: Terminal },
+  { name: "AI Coding Agent", purpose: "Build, edit, and ship from natural language", setup: "1 hr", savedPerWeek: "8 hrs", icon: Terminal },
   { name: "Meeting Intelligence", purpose: "Auto-capture and extract action items", setup: "15 min", savedPerWeek: "3 hrs", icon: Mic },
-  { name: "Rapid Prototyping", purpose: "Turn prompts into deployed web apps", setup: "30 min", savedPerWeek: "5 hrs", icon: Heart },
+  { name: "Rapid Prototyping", purpose: "Turn prompts into deployed web apps", setup: "30 min", savedPerWeek: "2 hrs", icon: Heart },
   { name: "Instant Deploy", purpose: "Ship to production from terminal", setup: "10 min", savedPerWeek: "1 hr", icon: Triangle },
   { name: "Workflow Automation", purpose: "Connect tools and eliminate manual steps", setup: "1 hr", savedPerWeek: "2 hrs", icon: Zap },
 ];
@@ -27,7 +27,7 @@ const SynrgyTools = () => {
       >
         <h2 className="text-2xl md:text-3xl font-bold mb-4">Active Tools (2026)</h2>
         <p className="text-muted-foreground mb-10 max-w-2xl leading-relaxed">
-          The stack that lets me build and ship without waiting on anyone. Total weekly savings: 26+ hours.
+          The stack that lets me build and ship without waiting on anyone. Total weekly savings: 16+ hours.
         </p>
       </div>
 
