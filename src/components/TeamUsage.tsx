@@ -18,11 +18,11 @@ const teamExamples: Array<{
     icon: Lightbulb,
   },
   {
-    role: "Engineering",
+    role: "Engineering & Data",
     items: [
       "Design discussions and architectural trade-offs",
       "Debugging support and hypothesis generation",
-      "Documentation and explanation clarity",
+      "Using agents to accelerate analytics from idea to insight",
     ],
     icon: Code,
   },

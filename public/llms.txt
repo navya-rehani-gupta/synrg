@@ -1,5 +1,5 @@
 # syNRGy — Me + AI Synergy
-By Navya Rehani Gupta · CPO
+By Navya Rehani Gupta · CPTO
 https://synrgy-nrg.com
 https://www.linkedin.com/in/navyarehani/
 
@@ -56,10 +56,10 @@ AI is part of how we work. It is not mandated, but it is expected to be used tho
 - Drafting PRDs and strategy outlines
 - Exploring edge cases and alternative approaches
 
-### Engineering
+### Engineering & Data
 - Design discussions and architectural trade-offs
 - Debugging support and hypothesis generation
-- Documentation and explanation clarity
+- Using agents to accelerate analytics from idea to insight
 
 ### Design
 - Copy exploration and iteration

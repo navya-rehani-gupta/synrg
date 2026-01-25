@@ -27,7 +27,7 @@ const Hero = () => {
               By Navya Rehani Gupta
             </p>
             <span className="text-muted-foreground/50">·</span>
-            <span className="text-sm text-muted-foreground">CPO</span>
+            <span className="text-sm text-muted-foreground">CPTO</span>
             <span className="text-muted-foreground/50">·</span>
             <a
               href="https://www.linkedin.com/in/navyarehani/"
@@ -50,10 +50,10 @@ const Hero = () => {
           </p>
 
           <button
-            onClick={() => document.querySelector('#how-i-use-ai')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => document.querySelector('#workflows')?.scrollIntoView({ behavior: 'smooth' })}
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium text-sm hover:bg-primary/90 transition-colors"
           >
-            See How I Work
+            See My Workflows
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
             </svg>
