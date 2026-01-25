@@ -1,0 +1,132 @@
+# syNRGy — Human + AI Synergy
+By Navya Rehani Gupta (NRG)
+https://synrgy-ai.vercel.app
+https://www.linkedin.com/in/navyarehani/
+
+## About
+
+How I operate as a hands-on CPTO — building tools, automating research, and shipping faster than traditional product orgs.
+
+AI is not a shortcut. It is my operating system. It helps me operate at the right altitude, move faster with clarity, and create space for better decisions.
+
+---
+
+## How I Use AI
+
+AI is how I think, build, and ship. It surfaces trade-offs, accelerates research, and turns ideas into working tools. I stay accountable for judgment and decisions.
+
+### 1. Building tools and automating research
+- Create interactive dashboards for market and competitive analysis
+- Prototype strategic tools for board and leadership discussions
+- Automate intelligence gathering and turn data into decisions
+> "I don't just use AI. I build with it."
+
+### 2. Turning complexity into clear narratives
+- Simplify executive updates and leadership comms
+- Clarify throughlines across multiple themes
+- Reduce cognitive load without losing substance
+> "I own the final framing and message."
+
+### 3. Pressure-testing strategy and trade-offs
+- Stress-test assumptions
+- Explore second- and third-order effects
+- Identify risks, edge cases, and blind spots
+> "AI helps me see more angles. I decide what matters."
+
+### 4. Accelerating first drafts
+- Draft initial versions of memos, emails, and frameworks
+- Explore multiple phrasings quickly
+- Get momentum without over-investing early
+> "Drafting is cheap. Decisions are not."
+
+### 5. Clarifying language when stakes are high
+- Tighten language in sensitive communications
+- Remove ambiguity and unintended signals
+- Ensure tone is calm, direct, and grounded
+> "Words matter. AI helps me choose them more deliberately."
+
+---
+
+## How My Team Uses AI
+
+AI is part of how we work. It is not mandated, but it is expected to be used thoughtfully to improve clarity, speed, and quality.
+
+### Product
+- Synthesizing discovery and customer insights
+- Drafting PRDs and strategy outlines
+- Exploring edge cases and alternative approaches
+
+### Engineering
+- Design discussions and architectural trade-offs
+- Debugging support and hypothesis generation
+- Documentation and explanation clarity
+
+### Design
+- Copy exploration and iteration
+- Critique and alternative concept exploration
+- Accessibility and usability checks
+
+### Leadership
+- Executive communications and narrative clarity
+- Scenario planning and decision prep
+- Framing trade-offs for alignment conversations
+
+### What we do NOT use AI for
+- Final decisions without human judgment
+- Performance or people feedback without direct context
+- Avoiding hard conversations or accountability
+> "AI supports thinking. It does not replace responsibility."
+
+---
+
+## Operating Principles
+
+These guide how I use AI and how I expect my team to use it.
+
+1. Clarity over cleverness
+2. AI amplifies judgment. It doesn't replace it.
+3. First drafts are cheap, decisions are not
+4. Speed without urgency. AI buys time for better decisions.
+5. Ruthless simplicity. If it doesn't clarify, cut it.
+
+---
+
+## Active Workflows (2026)
+
+These are my daily workflows — prioritized by impact. Each one replaces what used to take a team or a week.
+
+### Research → Executive & Board Ready
+Web research → Claude Code → Interactive HTML → Vercel
+Turn raw intelligence into deployed analysis tools — e.g., competitive dashboards, market prioritization.
+
+### Strategy → Stakeholder Deck
+Markdown docs → Claude Code → Presentation-ready materials
+
+### Idea → Working Prototype
+Concept → Claude Code → GitHub → Deploy
+Ship working prototypes in hours, not weeks.
+
+### Meeting → Action
+AI capture → Automated extraction → Knowledge base
+
+### This Page
+Auto-updated as I build
+This living record updates itself. As I build new tools and workflows, they're automatically logged here.
+
+---
+
+## Active Tools (2026)
+
+The stack that lets me build and ship without waiting on anyone. Total weekly savings: 16+ hours.
+
+| Tool | Purpose | Setup | Saves/Week |
+|------|---------|-------|------------|
+| AI Coding Agent | Build, edit, and ship from natural language | 1 hr | 8 hrs |
+| Meeting Intelligence | Auto-capture and extract action items | 15 min | 3 hrs |
+| Rapid Prototyping | Turn prompts into deployed web apps | 30 min | 2 hrs |
+| Instant Deploy | Ship to production from terminal | 10 min | 1 hr |
+| Workflow Automation | Connect tools and eliminate manual steps | 1 hr | 2 hrs |
+
+---
+
+© 2026 Navya Rehani Gupta
