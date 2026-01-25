@@ -17,6 +17,11 @@ const workflows = [
     name: "Research → Deploy",
     flow: "Claude Code (gather links) → HTML → Vercel",
   },
+  {
+    name: "/synrgy",
+    flow: "Trigger → Prompt → Log to Markdown → Push to GitHub → Lovable deploys",
+    description: "A Claude Code skill with proactive triggers. After significant actions (git push, task completion, tool setup), it prompts: \"Anything new to log?\" — then updates both my private notes and this public page.",
+  },
 ];
 
 const SynrgyWorkflows = () => {
@@ -47,7 +52,10 @@ const SynrgyWorkflows = () => {
               <div>
                 <span className="font-semibold text-foreground">{workflow.name}</span>
               </div>
-              <p className="text-sm text-muted-foreground mt-2">{workflow.flow}</p>
+              {workflow.description && (
+                <p className="text-sm text-muted-foreground mt-2">{workflow.description}</p>
+              )}
+              <p className="text-xs text-muted-foreground mt-2 font-mono">{workflow.flow}</p>
             </div>
           );
         })}
