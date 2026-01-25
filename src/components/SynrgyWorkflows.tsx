@@ -8,9 +8,9 @@ interface Workflow {
 
 const workflows: Workflow[] = [
   {
-    name: "Research → Board-Ready",
+    name: "Research → Executive & Board Ready",
     flow: "Web research → Claude Code → Interactive HTML → Vercel",
-    description: "Turn raw competitive intelligence into deployed, shareable analysis tools.",
+    description: "Turn raw intelligence into deployed analysis tools — e.g., competitive dashboards, market prioritization.",
   },
   {
     name: "Strategy → Stakeholder Deck",
@@ -61,7 +61,7 @@ const SynrgyWorkflows = () => {
         ref={headerRef as React.RefObject<HTMLDivElement>}
         className={headerVisible ? 'animate-fade-in' : 'opacity-0'}
       >
-        <h2 className="text-2xl md:text-3xl font-bold mb-4">Active Workflows (Jan 2026)</h2>
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">Active Workflows (2026)</h2>
         <p className="text-muted-foreground mb-10 max-w-2xl leading-relaxed">
           These are my daily workflows — prioritized by impact. Each one replaces what used to take a team or a week.
         </p>

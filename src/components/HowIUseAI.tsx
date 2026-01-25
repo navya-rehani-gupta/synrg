@@ -11,6 +11,17 @@ const useCases: Array<{
   icon: LucideIcon;
 }> = [
   {
+    title: "Building tools and automating research",
+    description: "I use AI to:",
+    items: [
+      "Create interactive dashboards for market and competitive analysis",
+      "Prototype strategic tools for board and leadership discussions",
+      "Automate intelligence gathering and turn data into decisions",
+    ],
+    footer: "I don't just use AI. I build with it.",
+    icon: Brain,
+  },
+  {
     title: "Turning complexity into clear narratives",
     description: "When ideas are dense or stakes are high, I use AI to:",
     items: [
@@ -53,17 +64,6 @@ const useCases: Array<{
     ],
     footer: "Words matter. AI helps me choose them more deliberately.",
     icon: PenLine,
-  },
-  {
-    title: "Building tools and automating research",
-    description: "I use AI to:",
-    items: [
-      "Create interactive dashboards for market and competitive analysis",
-      "Prototype strategic tools for board and leadership discussions",
-      "Automate intelligence gathering and turn data into decisions",
-    ],
-    footer: "I don't just use AI. I build with it.",
-    icon: Brain,
   },
 ];
 

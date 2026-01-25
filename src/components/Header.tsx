@@ -8,7 +8,6 @@ import { useActiveSection } from "@/hooks/useActiveSection";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const navItems = [
-  { label: "Built", href: "#built", id: "built" },
   { label: "How I Use AI", href: "#how-i-use-ai", id: "how-i-use-ai" },
   { label: "Team", href: "#team-usage", id: "team-usage" },
   { label: "Principles", href: "#principles", id: "principles" },

@@ -78,7 +78,8 @@ const Hero = () => {
               AI is not a shortcut. <span className="text-primary font-medium">It is my operating system.</span>
             </p>
             <p className="text-muted-foreground">
-              I build with it, research with it, and use it to make better decisions faster.
+              It helps me operate at the right altitude, move faster with clarity,
+              and create space for better decisions.
             </p>
           </div>
 

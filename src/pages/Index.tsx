@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import WhatIveBuilt from "@/components/WhatIveBuilt";
 import HowIUseAI from "@/components/HowIUseAI";
 import TeamUsage from "@/components/TeamUsage";
 import Principles from "@/components/Principles";
@@ -18,10 +17,6 @@ const Index = () => {
       <ScrollProgress />
       <main id="main-content" tabIndex={-1} className="container max-w-4xl mx-auto px-6 pt-20 outline-none">
         <Hero />
-        <div className="h-px bg-border" aria-hidden="true" />
-        <section id="built" aria-labelledby="built-heading">
-          <WhatIveBuilt />
-        </section>
         <div className="h-px bg-border" aria-hidden="true" />
         <section id="how-i-use-ai" aria-labelledby="how-i-use-ai-heading">
           <HowIUseAI />
