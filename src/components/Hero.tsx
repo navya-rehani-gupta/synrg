@@ -18,15 +18,21 @@ const Hero = () => {
             <span className="text-primary">y</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-xl leading-relaxed">
-            How I operate as a hands-on CPTO — building tools, automating research,
-            and shipping faster than traditional product orgs.
+          <p className="text-lg md:text-xl text-foreground mb-3 max-w-lg">
+            AI is not a shortcut. <span className="text-primary font-medium">It's my operating system.</span>
+          </p>
+          
+          <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-lg leading-relaxed">
+            How I lead product and engineering with 10x leverage — shipping faster, 
+            thinking clearer, and scaling without scaling headcount.
           </p>
 
           <div className="flex items-center gap-3 mb-10">
             <p className="text-base text-foreground font-medium">
               Navya Rehani Gupta
             </p>
+            <span className="text-muted-foreground/50">·</span>
+            <span className="text-sm text-muted-foreground">CPTO</span>
             <span className="text-muted-foreground/50">·</span>
             <a 
               href="https://www.linkedin.com/in/navyarehani/" 
