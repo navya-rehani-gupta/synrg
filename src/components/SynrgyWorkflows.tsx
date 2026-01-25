@@ -8,25 +8,27 @@ interface Workflow {
 
 const workflows: Workflow[] = [
   {
-    name: "Meeting → Insights",
-    flow: "Granola → Zapier → Claude Code → Obsidian",
+    name: "Research → Board-Ready",
+    flow: "Web research → Claude Code → Interactive HTML → Vercel",
+    description: "Turn raw competitive intelligence into deployed, shareable analysis tools.",
   },
   {
-    name: "Strategy → Deck",
-    flow: "Markdown → Claude Code → Slidev → Google Slides",
+    name: "Strategy → Stakeholder Deck",
+    flow: "Markdown docs → Claude Code → Presentation-ready materials",
   },
   {
-    name: "Code → Deploy",
-    flow: "Claude Code → GitHub → Lovable",
+    name: "Idea → Working Prototype",
+    flow: "Concept → Claude Code → GitHub → Deploy",
+    description: "Ship working prototypes in hours, not weeks.",
   },
   {
-    name: "Research → Deploy",
-    flow: "Claude Code (gather links) → HTML → Vercel",
+    name: "Meeting → Action",
+    flow: "AI capture → Automated extraction → Knowledge base",
   },
   {
-    name: "/synrgy",
-    flow: "Trigger → Prompt → Log to Markdown → Push to GitHub → Lovable deploys",
-    description: "A Claude Code skill with proactive triggers. After significant actions (git push, task completion, tool setup), it prompts: \"Anything new to log?\" — then updates both my private notes and this public page.",
+    name: "This Page",
+    flow: "Auto-updated as I build",
+    description: "This living record updates itself. As I build new tools and workflows, they're automatically logged here.",
   },
 ];
 
@@ -61,7 +63,7 @@ const SynrgyWorkflows = () => {
       >
         <h2 className="text-2xl md:text-3xl font-bold mb-4">Active Workflows (Jan 2026)</h2>
         <p className="text-muted-foreground mb-10 max-w-2xl leading-relaxed">
-          These are live experiments in AI-native product development. Some will stick, some won't. If you're a CPO/CPTO building similar infrastructure, I'd love to compare notes on what's working.
+          These are my daily workflows — prioritized by impact. Each one replaces what used to take a team or a week.
         </p>
       </div>
 

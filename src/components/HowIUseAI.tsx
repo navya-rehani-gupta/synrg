@@ -55,14 +55,14 @@ const useCases: Array<{
     icon: PenLine,
   },
   {
-    title: "Reducing emotional and cognitive load",
+    title: "Building tools and automating research",
     description: "I use AI to:",
     items: [
-      "Externalize thinking when I'm holding too much in my head",
-      "Create structure when situations are ambiguous or evolving",
-      "Regain calm and perspective before acting",
+      "Create interactive dashboards for market and competitive analysis",
+      "Prototype strategic tools for board and leadership discussions",
+      "Automate intelligence gathering and turn data into decisions",
     ],
-    footer: "AI creates space. I choose how to use it.",
+    footer: "I don't just use AI. I build with it.",
     icon: Brain,
   },
 ];
@@ -118,9 +118,8 @@ const HowIUseAI = () => {
       >
         <h2 className="text-2xl md:text-3xl font-bold mb-4">How I use AI</h2>
         <p className="text-muted-foreground mb-10 max-w-2xl leading-relaxed">
-          I use AI primarily as a thinking partner. Its job is to externalize complexity, 
-          surface trade-offs, and help me get to clarity faster. I remain fully accountable 
-          for judgment and decisions.
+          AI is how I think, build, and ship. It surfaces trade-offs, accelerates research,
+          and turns ideas into working tools. I stay accountable for judgment and decisions.
         </p>
         
         <h3 className="text-lg font-semibold text-muted-foreground mb-6">Common use cases</h3>

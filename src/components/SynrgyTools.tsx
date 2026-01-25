@@ -9,11 +9,11 @@ const tools: Array<{
   savedPerWeek: string;
   icon: LucideIcon;
 }> = [
-  { name: "Claude Code", purpose: "Local editing, automation, push to GitHub", setup: "1 hr", savedPerWeek: "15 hrs", icon: Terminal },
-  { name: "Granola", purpose: "AI meeting notes and summaries", setup: "15 min", savedPerWeek: "3 hrs", icon: Mic },
-  { name: "Lovable", purpose: "Build and deploy web apps from prompts", setup: "30 min", savedPerWeek: "5 hrs", icon: Heart },
-  { name: "Vercel", purpose: "Instant web deploy from terminal", setup: "10 min", savedPerWeek: "1 hr", icon: Triangle },
-  { name: "Zapier", purpose: "Connect everything automatically", setup: "1 hr", savedPerWeek: "2 hrs", icon: Zap },
+  { name: "AI Coding Agent", purpose: "Build, edit, and ship from natural language", setup: "1 hr", savedPerWeek: "15 hrs", icon: Terminal },
+  { name: "Meeting Intelligence", purpose: "Auto-capture and extract action items", setup: "15 min", savedPerWeek: "3 hrs", icon: Mic },
+  { name: "Rapid Prototyping", purpose: "Turn prompts into deployed web apps", setup: "30 min", savedPerWeek: "5 hrs", icon: Heart },
+  { name: "Instant Deploy", purpose: "Ship to production from terminal", setup: "10 min", savedPerWeek: "1 hr", icon: Triangle },
+  { name: "Workflow Automation", purpose: "Connect tools and eliminate manual steps", setup: "1 hr", savedPerWeek: "2 hrs", icon: Zap },
 ];
 
 const SynrgyTools = () => {
@@ -27,7 +27,7 @@ const SynrgyTools = () => {
       >
         <h2 className="text-2xl md:text-3xl font-bold mb-4">Active Tools (Jan 2026)</h2>
         <p className="text-muted-foreground mb-10 max-w-2xl leading-relaxed">
-          Experimenting with tool chains that reduce friction between thinking and shipping. Always testing new combinations.
+          The stack that lets me build and ship without waiting on anyone. Total weekly savings: 26+ hours.
         </p>
       </div>
 

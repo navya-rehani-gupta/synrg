@@ -3,10 +3,10 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const principles = [
   "Clarity over cleverness",
-  "AI accelerates judgment, it does not replace it",
+  "AI amplifies judgment. It doesn't replace it.",
   "First drafts are cheap, decisions are not",
-  "Use AI to create space, not urgency",
-  "If it increases confusion, stop using it",
+  "Speed without urgency. AI buys time for better decisions.",
+  "Ruthless simplicity. If it doesn't clarify, cut it.",
 ];
 
 const PrincipleItem = ({ principle, index }: { principle: string; index: number }) => {

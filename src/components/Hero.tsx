@@ -69,17 +69,16 @@ const Hero = () => {
           </div>
           
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed font-light mb-10 max-w-2xl animate-fade-in animation-delay-500">
-            A living record of how I use AI to think clearly, reduce cognitive load, 
-            and scale judgment.
+            How I operate as a hands-on CPTO — building tools, automating research,
+            and shipping faster than traditional product orgs.
           </p>
 
           <div className="space-y-4 text-lg leading-relaxed max-w-2xl animate-fade-in animation-delay-700">
             <p className="text-foreground">
-              AI is not a shortcut in my work. <span className="text-primary font-medium">It is part of my operating system.</span>
+              AI is not a shortcut. <span className="text-primary font-medium">It is my operating system.</span>
             </p>
             <p className="text-muted-foreground">
-              Its role is to help me operate at the right altitude, move faster with clarity, 
-              and create space for better decisions.
+              I build with it, research with it, and use it to make better decisions faster.
             </p>
           </div>
 
