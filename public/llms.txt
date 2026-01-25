@@ -1,13 +1,13 @@
 # syNRGy — Human + AI Synergy
-By Navya Rehani Gupta (NRG)
+By Navya Rehani Gupta (NRG) · CPTO
 https://synrgy-ai.vercel.app
 https://www.linkedin.com/in/navyarehani/
 
 ## About
 
-How I operate as a hands-on CPTO — building tools, automating research, and shipping faster than traditional product orgs.
+AI is not a shortcut. It's my operating system.
 
-AI is not a shortcut. It is my operating system. It helps me operate at the right altitude, move faster with clarity, and create space for better decisions.
+How I lead product and engineering with 10x leverage — shipping faster, thinking clearer, and scaling without scaling headcount.
 
 ---
 
