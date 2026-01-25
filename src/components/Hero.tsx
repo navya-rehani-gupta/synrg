@@ -12,39 +12,42 @@ const Hero = () => {
       <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
         {/* Text content */}
         <div className="flex-1 animate-fade-in">
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[1.05] mb-6">
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[1.05] mb-4">
             <span className="text-primary">sy</span>
             <span className="text-foreground">NRG</span>
             <span className="text-primary">y</span>
           </h1>
-          
-          <p className="text-lg md:text-xl text-foreground mb-3 max-w-lg">
-            AI is not a shortcut. <span className="text-primary font-medium">It's my operating system.</span>
-          </p>
-          
-          <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-lg leading-relaxed">
-            How I lead product and engineering with 10x leverage — shipping faster, 
-            thinking clearer, and scaling without scaling headcount.
+
+          <p className="text-xl md:text-2xl font-medium text-muted-foreground mb-3">
+            Me <span className="text-primary">+</span> AI Synergy
           </p>
 
-          <div className="flex items-center gap-3 mb-10">
+          <div className="flex items-center gap-3 mb-8">
             <p className="text-base text-foreground font-medium">
-              Navya Rehani Gupta
+              By Navya Rehani Gupta
             </p>
             <span className="text-muted-foreground/50">·</span>
-            <span className="text-sm text-muted-foreground">CPTO</span>
+            <span className="text-sm text-muted-foreground">CPO</span>
             <span className="text-muted-foreground/50">·</span>
-            <a 
-              href="https://www.linkedin.com/in/navyarehani/" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/navyarehani/"
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-muted-foreground hover:text-primary transition-colors text-sm"
               aria-label="LinkedIn profile"
             >
               <Linkedin className="w-4 h-4" />
-              <span>Connect</span>
             </a>
           </div>
+
+          <p className="text-lg md:text-xl text-foreground mb-3 max-w-lg">
+            AI is not a shortcut. <span className="text-primary font-medium">It's my operating system.</span>
+          </p>
+
+          <p className="text-base md:text-lg text-muted-foreground mb-10 max-w-lg leading-relaxed">
+            How I use AI to lead with 10x leverage — build with it, research with it,
+            operate at the right altitude, and make better decisions faster.
+          </p>
 
           <button
             onClick={() => document.querySelector('#how-i-use-ai')?.scrollIntoView({ behavior: 'smooth' })}

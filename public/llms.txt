@@ -1,13 +1,13 @@
-# syNRGy — Human + AI Synergy
-By Navya Rehani Gupta (NRG) · CPTO
-https://synrgy-ai.vercel.app
+# syNRGy — Me + AI Synergy
+By Navya Rehani Gupta · CPO
+https://synrgy-nrg.com
 https://www.linkedin.com/in/navyarehani/
 
 ## About
 
 AI is not a shortcut. It's my operating system.
 
-How I lead product and engineering with 10x leverage — shipping faster, thinking clearer, and scaling without scaling headcount.
+How I use AI to lead with 10x leverage — build with it, research with it, operate at the right altitude, and make better decisions faster.
 
 ---
 
