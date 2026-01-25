@@ -39,7 +39,7 @@ const Principles = () => {
         </p>
       </div>
       
-      <div className="bg-accent/50 rounded-lg p-8 max-w-2xl hover:shadow-lg hover:shadow-primary/5 transition-shadow duration-300">
+      <div className="bg-card border border-border rounded-lg p-8 max-w-2xl hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300">
         <ul className="space-y-4">
           {principles.map((principle, index) => (
             <PrincipleItem key={index} principle={principle} index={index} />
