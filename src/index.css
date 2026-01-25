@@ -94,10 +94,18 @@
   body {
     @apply bg-background text-foreground antialiased;
     font-feature-settings: "kern" 1, "liga" 1;
+    /* Subtle background texture */
+    background-image: 
+      radial-gradient(circle at 25% 0%, hsl(var(--primary) / 0.03) 0%, transparent 50%),
+      radial-gradient(circle at 75% 100%, hsl(var(--accent) / 0.05) 0%, transparent 50%);
   }
 
   h1, h2, h3, h4, h5, h6 {
     @apply tracking-tight font-semibold;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
   }
 }
 

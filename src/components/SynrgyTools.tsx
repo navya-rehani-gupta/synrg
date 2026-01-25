@@ -1,12 +1,19 @@
-import { Wrench } from "lucide-react";
+import { Terminal, Mic, Heart, Triangle, Zap } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import type { LucideIcon } from "lucide-react";
 
-const tools = [
-  { name: "Claude Code", purpose: "Local editing, automation, push to GitHub", setup: "1 hr", savedPerWeek: "15 hrs" },
-  { name: "Granola", purpose: "AI meeting notes and summaries", setup: "15 min", savedPerWeek: "3 hrs" },
-  { name: "Lovable", purpose: "Build and deploy web apps from prompts", setup: "30 min", savedPerWeek: "5 hrs" },
-  { name: "Vercel", purpose: "Instant web deploy from terminal", setup: "10 min", savedPerWeek: "1 hr" },
-  { name: "Zapier", purpose: "Connect everything automatically", setup: "1 hr", savedPerWeek: "2 hrs" },
+const tools: Array<{
+  name: string;
+  purpose: string;
+  setup: string;
+  savedPerWeek: string;
+  icon: LucideIcon;
+}> = [
+  { name: "Claude Code", purpose: "Local editing, automation, push to GitHub", setup: "1 hr", savedPerWeek: "15 hrs", icon: Terminal },
+  { name: "Granola", purpose: "AI meeting notes and summaries", setup: "15 min", savedPerWeek: "3 hrs", icon: Mic },
+  { name: "Lovable", purpose: "Build and deploy web apps from prompts", setup: "30 min", savedPerWeek: "5 hrs", icon: Heart },
+  { name: "Vercel", purpose: "Instant web deploy from terminal", setup: "10 min", savedPerWeek: "1 hr", icon: Triangle },
+  { name: "Zapier", purpose: "Connect everything automatically", setup: "1 hr", savedPerWeek: "2 hrs", icon: Zap },
 ];
 
 const SynrgyTools = () => {
@@ -31,11 +38,13 @@ const SynrgyTools = () => {
             <div
               key={index}
               ref={ref as React.RefObject<HTMLDivElement>}
-              className={`bg-accent/50 rounded-lg p-5 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}
+              className={`bg-card border border-border rounded-lg p-5 group hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="flex items-center gap-3">
-                <Wrench className="w-4 h-4 text-primary shrink-0" />
+                <div className="p-2 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
+                  <tool.icon className="w-4 h-4 text-primary" />
+                </div>
                 <span className="font-semibold text-foreground">{tool.name}</span>
               </div>
               <p className="text-sm text-muted-foreground mt-2">{tool.purpose}</p>

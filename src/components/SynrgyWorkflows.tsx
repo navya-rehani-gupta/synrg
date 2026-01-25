@@ -41,7 +41,7 @@ const SynrgyWorkflows = () => {
             <div
               key={index}
               ref={ref as React.RefObject<HTMLDivElement>}
-              className={`bg-accent/50 rounded-lg p-6 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}
+              className={`bg-card border border-border rounded-lg p-6 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div>

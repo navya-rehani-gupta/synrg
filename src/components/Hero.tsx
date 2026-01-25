@@ -62,12 +62,6 @@ const Hero = () => {
             and scale judgment.
           </p>
 
-          <div className="flex items-center gap-4 mb-12">
-            <div className="h-1 w-1 rounded-full bg-primary animate-pulse" />
-            <div className="h-1 w-1 rounded-full bg-primary/60 animate-pulse animation-delay-200" />
-            <div className="h-1 w-1 rounded-full bg-primary/30 animate-pulse animation-delay-400" />
-          </div>
-          
           <div className="space-y-4 text-lg leading-relaxed max-w-2xl animate-fade-in animation-delay-700">
             <p className="text-foreground">
               AI is not a shortcut in my work. <span className="text-primary font-medium">It is infrastructure.</span>
@@ -76,6 +70,19 @@ const Hero = () => {
               Its role is to help me operate at the right altitude, move faster with clarity, 
               and create space for better decisions.
             </p>
+          </div>
+
+          {/* CTA Button */}
+          <div className="flex items-center gap-4 mt-10 animate-fade-in animation-delay-1000">
+            <button
+              onClick={() => document.querySelector('#how-i-use-ai')?.scrollIntoView({ behavior: 'smooth' })}
+              className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium text-sm hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20"
+            >
+              Explore My Workflows
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </button>
           </div>
         </div>
 
