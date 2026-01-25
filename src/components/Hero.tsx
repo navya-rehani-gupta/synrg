@@ -53,14 +53,14 @@ const Hero = () => {
           <p className="text-xl md:text-2xl font-medium text-muted-foreground mb-2 animate-fade-in animation-delay-300">
             Me <span className="text-primary">+</span> AI Synergy
           </p>
-          <p className="text-sm text-muted-foreground mb-1 animate-fade-in animation-delay-400">
+          <p className="text-sm text-muted-foreground animate-fade-in animation-delay-400">
             By Navya Rehani Gupta (NRG)
           </p>
           <a 
             href="https://www.linkedin.com/in/navyarehani/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-xs text-primary hover:text-primary/80 transition-colors animate-fade-in animation-delay-400 inline-flex items-center gap-1"
+            className="text-xs text-primary hover:text-primary/80 transition-colors animate-fade-in animation-delay-400 inline-flex items-center gap-1 mt-2 mb-8"
           >
             More about me here →
           </a>
@@ -99,7 +99,7 @@ const Hero = () => {
           <div className="relative aspect-square rounded-full overflow-hidden shadow-2xl shadow-primary/20 group ring-4 ring-primary/20 ring-offset-4 ring-offset-background">
             <img 
               src={heroImage} 
-              alt="Leadership insights" 
+              alt="Navya Rehani Gupta - Product Leader and AI Strategist" 
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/30 to-transparent pointer-events-none" />
