@@ -1,6 +1,12 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
-const workflows = [
+interface Workflow {
+  name: string;
+  flow: string;
+  description?: string;
+}
+
+const workflows: Workflow[] = [
   {
     name: "Meeting → Insights",
     flow: "Granola → Zapier → Claude Code → Obsidian",
@@ -24,6 +30,26 @@ const workflows = [
   },
 ];
 
+const WorkflowCard = ({ workflow, index }: { workflow: Workflow; index: number }) => {
+  const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 });
+  
+  return (
+    <div
+      ref={ref as React.RefObject<HTMLDivElement>}
+      className={`bg-card border border-border rounded-lg p-6 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}
+      style={{ animationDelay: `${index * 100}ms` }}
+    >
+      <div>
+        <span className="font-semibold text-foreground">{workflow.name}</span>
+      </div>
+      {workflow.description && (
+        <p className="text-sm text-muted-foreground mt-2">{workflow.description}</p>
+      )}
+      <p className="text-xs text-muted-foreground mt-2 font-mono">{workflow.flow}</p>
+    </div>
+  );
+};
+
 const SynrgyWorkflows = () => {
   const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation();
 
@@ -40,25 +66,9 @@ const SynrgyWorkflows = () => {
       </div>
 
       <div className="space-y-4 max-w-2xl">
-        {workflows.map((workflow, index) => {
-          const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 });
-          return (
-            <div
-              key={index}
-              ref={ref as React.RefObject<HTMLDivElement>}
-              className={`bg-card border border-border rounded-lg p-6 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <div>
-                <span className="font-semibold text-foreground">{workflow.name}</span>
-              </div>
-              {workflow.description && (
-                <p className="text-sm text-muted-foreground mt-2">{workflow.description}</p>
-              )}
-              <p className="text-xs text-muted-foreground mt-2 font-mono">{workflow.flow}</p>
-            </div>
-          );
-        })}
+        {workflows.map((workflow, index) => (
+          <WorkflowCard key={index} workflow={workflow} index={index} />
+        ))}
       </div>
     </section>
   );
