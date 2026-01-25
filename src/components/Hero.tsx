@@ -53,9 +53,17 @@ const Hero = () => {
           <p className="text-xl md:text-2xl font-medium text-muted-foreground mb-2 animate-fade-in animation-delay-300">
             Me <span className="text-primary">+</span> AI Synergy
           </p>
-          <p className="text-sm text-muted-foreground mb-8 animate-fade-in animation-delay-400">
+          <p className="text-sm text-muted-foreground mb-1 animate-fade-in animation-delay-400">
             By Navya Rehani Gupta (NRG)
           </p>
+          <a 
+            href="https://www.linkedin.com/in/navyarehani/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-xs text-primary hover:text-primary/80 transition-colors animate-fade-in animation-delay-400 inline-flex items-center gap-1"
+          >
+            More about me here →
+          </a>
           
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed font-light mb-10 max-w-2xl animate-fade-in animation-delay-500">
             A living record of how I use AI to think clearly, reduce cognitive load, 
@@ -64,7 +72,7 @@ const Hero = () => {
 
           <div className="space-y-4 text-lg leading-relaxed max-w-2xl animate-fade-in animation-delay-700">
             <p className="text-foreground">
-              AI is not a shortcut in my work. <span className="text-primary font-medium">It is infrastructure.</span>
+              AI is not a shortcut in my work. <span className="text-primary font-medium">It is part of my operating system.</span>
             </p>
             <p className="text-muted-foreground">
               Its role is to help me operate at the right altitude, move faster with clarity, 

@@ -1,21 +1,22 @@
-import { Linkedin, Twitter, Mail, Bot } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Bot } from "lucide-react";
 
 const Footer = () => {
   return (
     <footer className="py-16 border-t border-border">
       <div className="max-w-2xl mx-auto">
-        {/* Meta section moved here */}
+        {/* Meta section - How this page updates */}
         <div className="bg-accent/50 rounded-lg p-6 mb-12">
           <div className="flex items-start gap-4">
-            <Bot className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+            <Bot className="w-6 h-6 text-primary shrink-0 mt-1" />
             <div>
-              <span className="font-semibold text-foreground text-sm">/synrgy</span>
-              <span className="text-muted-foreground text-sm ml-2">— proactive logging agent</span>
-              <p className="text-xs text-muted-foreground mt-2 leading-relaxed">
-                A Claude Code skill with proactive triggers. After significant actions, it prompts for updates 
-                and syncs to both private notes and this public page.
+              <span className="font-semibold text-foreground">/synrgy</span>
+              <span className="text-muted-foreground ml-2">— proactive logging agent</span>
+              <p className="text-sm text-muted-foreground mt-3 leading-relaxed">
+                A Claude Code skill configured with proactive triggers. After significant actions (git push, task completion, tool setup), it prompts: <em>"Anything new to log?"</em> — then updates both my private notes and this public page via GitHub auto-sync.
               </p>
+              <div className="mt-4 text-xs text-muted-foreground font-mono">
+                Trigger → Prompt → Log to Markdown → Push to GitHub → Lovable deploys
+              </div>
             </div>
           </div>
         </div>
@@ -31,23 +32,14 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="flex items-center gap-2">
-            <Button variant="ghost" size="icon" className="h-9 w-9" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                <Linkedin className="h-4 w-4" />
-              </a>
-            </Button>
-            <Button variant="ghost" size="icon" className="h-9 w-9" asChild>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                <Twitter className="h-4 w-4" />
-              </a>
-            </Button>
-            <Button variant="ghost" size="icon" className="h-9 w-9" asChild>
-              <a href="mailto:hello@example.com" aria-label="Email">
-                <Mail className="h-4 w-4" />
-              </a>
-            </Button>
-          </div>
+          <a 
+            href="https://www.linkedin.com/in/navyarehani/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-sm text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+          >
+            More about me here →
+          </a>
         </div>
 
         <div className="mt-8 pt-6 border-t border-border text-center">
