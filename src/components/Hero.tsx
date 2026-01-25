@@ -1,9 +1,9 @@
-import { Brain, Sparkles, Zap } from "lucide-react";
+import { Brain, Sparkles, Zap, Linkedin } from "lucide-react";
 import heroImage from "@/assets/hero-headshot.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative py-24 md:py-40 overflow-hidden">
+    <section className="relative py-16 md:py-24 lg:py-40 overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 left-1/4 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-3">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-3">
             <span className="text-primary inline-block animate-slide-up">sy</span>
             <span className="text-foreground inline-block animate-slide-up animation-delay-100">NRG</span>
             <span className="text-primary inline-block animate-slide-up animation-delay-200">y</span>
@@ -53,17 +53,20 @@ const Hero = () => {
           <p className="text-xl md:text-2xl font-medium text-muted-foreground mb-2 animate-fade-in animation-delay-300">
             Me <span className="text-primary">+</span> AI Synergy
           </p>
-          <p className="text-sm text-muted-foreground animate-fade-in animation-delay-400">
-            By Navya Rehani Gupta (NRG)
-          </p>
-          <a 
-            href="https://www.linkedin.com/in/navyarehani/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-xs text-primary hover:text-primary/80 transition-colors animate-fade-in animation-delay-400 inline-flex items-center gap-1 mt-2 mb-8"
-          >
-            More about me here →
-          </a>
+          <div className="flex items-center gap-2 mb-8 animate-fade-in animation-delay-400">
+            <p className="text-sm text-muted-foreground">
+              By Navya Rehani Gupta (NRG)
+            </p>
+            <a 
+              href="https://www.linkedin.com/in/navyarehani/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="LinkedIn profile"
+            >
+              <Linkedin className="w-4 h-4" />
+            </a>
+          </div>
           
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed font-light mb-10 max-w-2xl animate-fade-in animation-delay-500">
             A living record of how I use AI to think clearly, reduce cognitive load, 
@@ -95,7 +98,7 @@ const Hero = () => {
         </div>
 
         {/* Hero Image */}
-        <div className="flex-1 max-w-xs md:max-w-md lg:max-w-lg xl:max-w-xl animate-fade-in animation-delay-500">
+        <div className="flex-shrink-0 w-48 md:w-64 lg:w-80 xl:w-96 animate-fade-in animation-delay-500">
           <div className="relative aspect-square rounded-full overflow-hidden shadow-2xl shadow-primary/20 group ring-4 ring-primary/20 ring-offset-4 ring-offset-background">
             <img 
               src={heroImage} 
