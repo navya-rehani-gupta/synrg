@@ -1,4 +1,17 @@
 {
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "synrgy-ai.vercel.app"
+        }
+      ],
+      "destination": "https://synrgy-nrg.com/:path*",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/",
