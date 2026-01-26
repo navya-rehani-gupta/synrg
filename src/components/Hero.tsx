@@ -23,7 +23,7 @@ const Hero = () => {
           </p>
 
           <div className="flex items-center gap-2 mb-6 text-sm text-muted-foreground">
-            <span className="font-medium text-foreground">Navya Rehani Gupta</span>
+            <span className="font-medium text-foreground">Navya Rehani Gupta (NRG)</span>
             <span className="text-muted-foreground/40">·</span>
             <span>CPTO at Talent.com</span>
             <span className="text-muted-foreground/40">·</span>
@@ -47,7 +47,7 @@ const Hero = () => {
           </p>
 
           <p className="text-sm md:text-base text-muted-foreground mb-8 max-w-md leading-relaxed">
-            That's the real synergy: me plus the machine.
+            That's the real synergy. Me plus the machine.
           </p>
 
           <button
