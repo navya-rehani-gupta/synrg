@@ -19,12 +19,12 @@ const Index = () => {
       <main id="main-content" tabIndex={-1} className="container max-w-4xl mx-auto px-6 pt-20 outline-none">
         <Hero />
         <div className="h-px bg-border" aria-hidden="true" />
-        <section id="principles" aria-labelledby="principles-heading">
-          <Principles />
-        </section>
-        <div className="h-px bg-border" aria-hidden="true" />
         <section id="how-i-operate" aria-labelledby="how-i-operate-heading">
           <HowIUseAI />
+        </section>
+        <div className="h-px bg-border" aria-hidden="true" />
+        <section id="principles" aria-labelledby="principles-heading">
+          <Principles />
         </section>
         <div className="h-px bg-border" aria-hidden="true" />
         <section id="team-usage" aria-labelledby="team-usage-heading">
