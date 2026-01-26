@@ -10,11 +10,11 @@ AI is not a shortcut. It's my operating system.
 
 I don't just use AI. I build with it. It helps me stay clear-headed at high-stakes altitude, not replace thinking.
 
-That's the real synergy — me plus the machine.
+That's the real synergy. Me plus the machine.
 
 ---
 
-## Operating Principles
+## Principles That Drive syNRGy
 
 How I show up under pressure. These guide how I use AI and how I expect my team to use it.
 
@@ -34,7 +34,7 @@ AI is how I think, build, and ship. It surfaces trade-offs, accelerates research
 - Create interactive dashboards for market and competitive analysis
 - Prototype strategic tools for board and leadership discussions
 - Automate intelligence gathering and turn data into decisions
-> "I don't just use AI. I build with it."
+> "From question to deployed tool in hours."
 
 ### 2. Turning complexity into clear narratives
 - Simplify executive updates and leadership comms
@@ -140,4 +140,3 @@ Connect on LinkedIn: https://www.linkedin.com/in/navyarehani/
 ---
 
 (c) 2026 Navya Rehani Gupta
-

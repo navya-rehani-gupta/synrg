@@ -22,10 +22,12 @@ const Hero = () => {
             Me <span className="text-primary">+</span> AI Synergy
           </p>
 
-          <div className="flex items-center gap-2 mb-6 text-sm text-muted-foreground">
+          <div className="flex items-center gap-2 mb-6 text-sm text-muted-foreground flex-wrap">
             <span className="font-medium text-foreground">Navya Rehani Gupta (NRG)</span>
             <span className="text-muted-foreground/40">·</span>
             <span>CPTO at Talent.com</span>
+            <span className="text-muted-foreground/40">·</span>
+            <span>Global CPO Award Winner</span>
             <span className="text-muted-foreground/40">·</span>
             <a
               href="https://www.linkedin.com/in/navyarehani/"

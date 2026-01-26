@@ -18,7 +18,7 @@ const useCases: Array<{
       "Prototype strategic tools for board and leadership discussions",
       "Automate intelligence gathering and turn data into decisions",
     ],
-    footer: "I don't just use AI. I build with it.",
+    footer: "From question to deployed tool in hours.",
     icon: Brain,
   },
   {
