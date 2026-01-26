@@ -98,7 +98,7 @@ const TeamUsage = () => {
         ref={headerRef as React.RefObject<HTMLDivElement>}
         className={headerVisible ? 'animate-fade-in' : 'opacity-0'}
       >
-        <h2 className="text-2xl md:text-3xl font-bold mb-4">How my team uses AI</h2>
+        <h2 id="team-usage-heading" className="text-2xl md:text-3xl font-bold mb-4">How my team uses AI</h2>
         <p className="text-muted-foreground mb-10 max-w-2xl leading-relaxed">
           AI is part of how we work. It is not mandated, but it is expected to be 
           used thoughtfully to improve clarity, speed, and quality.

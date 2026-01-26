@@ -10,7 +10,7 @@ const CompareNotes = () => {
         ref={ref as React.RefObject<HTMLDivElement>}
         className={isVisible ? 'animate-fade-in' : 'opacity-0'}
       >
-        <h2 className="text-2xl md:text-3xl font-bold mb-4">Compare Notes</h2>
+        <h2 id="compare-notes-heading" className="text-2xl md:text-3xl font-bold mb-4">Compare Notes</h2>
         <p className="text-muted-foreground mb-8 max-w-2xl leading-relaxed">
           If you're building something similar or want to compare notes, I'd love to hear from you.
         </p>

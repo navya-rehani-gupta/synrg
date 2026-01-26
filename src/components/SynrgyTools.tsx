@@ -26,7 +26,7 @@ const SynrgyTools = () => {
         ref={headerRef as React.RefObject<HTMLDivElement>}
         className={headerVisible ? 'animate-fade-in' : 'opacity-0'}
       >
-        <h2 className="text-2xl md:text-3xl font-bold mb-4">Active Tools (2026)</h2>
+        <h2 id="tools-heading" className="text-2xl md:text-3xl font-bold mb-4">Active Tools (2026)</h2>
         <p className="text-muted-foreground mb-10 max-w-2xl leading-relaxed">
           The stack that lets me build and ship without waiting on anyone. Total weekly savings: 16+ hours.
         </p>
@@ -54,7 +54,7 @@ const SynrgyTools = () => {
               <p className="text-sm text-muted-foreground mt-2">{tool.purpose}</p>
               <div className="flex gap-4 mt-3 text-xs">
                 <span className="text-muted-foreground">Setup: <span className="text-foreground font-medium">{tool.setup}</span></span>
-                <span className="text-muted-foreground">Saves: <span className="text-green-600 font-medium">{tool.savedPerWeek}/wk</span></span>
+                <span className="text-muted-foreground">Saves: <span className="text-primary font-medium">{tool.savedPerWeek}/wk</span></span>
               </div>
             </div>
           );
