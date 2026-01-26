@@ -121,7 +121,6 @@ const HowIUseAI = () => {
           AI is how I think, build, and ship. It surfaces trade-offs, accelerates research, and turns ideas into working tools.
         </p>
 
-        <h3 className="text-lg font-semibold text-muted-foreground mb-6">Common use cases</h3>
       </div>
       
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
