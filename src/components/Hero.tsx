@@ -41,11 +41,11 @@ const Hero = () => {
           </div>
 
           <p className="text-lg md:text-xl font-medium text-foreground mb-3 max-w-md leading-relaxed">
-            AI is not a shortcut. It's my operating system.
+            AI is not a shortcut. It's part of my operating system.
           </p>
 
           <p className="text-sm md:text-base text-muted-foreground mb-2 max-w-md leading-relaxed">
-            I don't just use AI. I build with it. It helps me stay clear-headed at high-stakes altitude, not replace thinking.
+            I don't just use AI. I build systems with it. It helps me stay clear-headed at high-stakes altitude, without replacing thinking.
           </p>
 
           <p className="text-sm md:text-base text-muted-foreground mb-8 max-w-md leading-relaxed">

@@ -118,7 +118,7 @@ const HowIUseAI = () => {
       >
         <h2 id="how-i-operate-heading" className="text-2xl md:text-3xl font-bold mb-4">How I Think and Operate</h2>
         <p className="text-muted-foreground mb-10 max-w-2xl leading-relaxed">
-          AI is how I think, build, and ship. It surfaces trade-offs, accelerates research, and turns ideas into working tools.
+          AI is woven into how I think, build, and ship. It surfaces trade-offs, accelerates research, and turns ideas into working tools.
         </p>
 
       </div>
