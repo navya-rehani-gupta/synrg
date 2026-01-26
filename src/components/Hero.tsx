@@ -22,12 +22,12 @@ const Hero = () => {
             Me <span className="text-primary">+</span> AI Synergy
           </p>
 
-          <div className="flex items-center gap-3 mb-8">
+          <div className="flex items-center gap-3 mb-8 flex-wrap">
             <p className="text-base text-foreground font-medium">
-              By Navya Rehani Gupta
+              By Navya Rehani Gupta (NRG)
             </p>
             <span className="text-muted-foreground/50">·</span>
-            <span className="text-sm text-muted-foreground">CPTO</span>
+            <span className="text-sm text-muted-foreground">CPTO at Talent.com | Global CPO Award Winner</span>
             <span className="text-muted-foreground/50">·</span>
             <a
               href="https://www.linkedin.com/in/navyarehani/"
@@ -44,9 +44,12 @@ const Hero = () => {
             AI is not a shortcut. <span className="text-primary font-medium">It's my operating system.</span>
           </p>
 
+          <p className="text-base md:text-lg text-muted-foreground mb-4 max-w-lg leading-relaxed">
+            I don't just use AI. I build with it. It helps me stay clear-headed at high-stakes altitude, not replace thinking.
+          </p>
+
           <p className="text-base md:text-lg text-muted-foreground mb-10 max-w-lg leading-relaxed">
-            How I use AI to lead with 10x leverage — build with it, research with it,
-            operate at the right altitude, and make better decisions faster.
+            When tools are easy, the human layer is what separates good from great. That's the real synergy.
           </p>
 
           <button

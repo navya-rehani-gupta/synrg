@@ -22,7 +22,7 @@ const teamExamples: Array<{
     items: [
       "Design discussions and architectural trade-offs",
       "Debugging support and hypothesis generation",
-      "Using agents to accelerate analytics from idea to insight",
+      "Accelerating analytics from idea to insight",
     ],
     icon: Code,
   },

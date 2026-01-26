@@ -1,5 +1,6 @@
-# syNRGy — Me + AI Synergy
-By Navya Rehani Gupta · CPTO
+# syNRGy - Me + AI Synergy
+By Navya Rehani Gupta (NRG)
+CPTO at Talent.com | Global CPO Award Winner
 https://synrgy-nrg.com
 https://www.linkedin.com/in/navyarehani/
 
@@ -7,13 +8,27 @@ https://www.linkedin.com/in/navyarehani/
 
 AI is not a shortcut. It's my operating system.
 
-How I use AI to lead with 10x leverage — build with it, research with it, operate at the right altitude, and make better decisions faster.
+I don't just use AI. I build with it. It helps me stay clear-headed at high-stakes altitude, not replace thinking.
+
+When tools are easy, the human layer is what separates good from great. That's the real synergy.
 
 ---
 
-## How I Use AI
+## Operating Principles
 
-AI is how I think, build, and ship. It surfaces trade-offs, accelerates research, and turns ideas into working tools. I stay accountable for judgment and decisions.
+How I show up under pressure. These guide how I use AI and how I expect my team to use it.
+
+1. Clarity over cleverness
+2. AI amplifies judgment, not replaces it
+3. First drafts are cheap. Decisions are not.
+4. Speed without urgency
+5. Ruthless simplicity
+
+---
+
+## How I Think and Operate
+
+AI is how I think, build, and ship. It surfaces trade-offs, accelerates research, and turns ideas into working tools.
 
 ### 1. Building tools and automating research
 - Create interactive dashboards for market and competitive analysis
@@ -59,7 +74,7 @@ AI is part of how we work. It is not mandated, but it is expected to be used tho
 ### Engineering & Data
 - Design discussions and architectural trade-offs
 - Debugging support and hypothesis generation
-- Using agents to accelerate analytics from idea to insight
+- Accelerating analytics from idea to insight
 
 ### Design
 - Copy exploration and iteration
@@ -79,35 +94,23 @@ AI is part of how we work. It is not mandated, but it is expected to be used tho
 
 ---
 
-## Operating Principles
-
-These guide how I use AI and how I expect my team to use it.
-
-1. Clarity over cleverness
-2. AI amplifies judgment. It doesn't replace it.
-3. First drafts are cheap, decisions are not
-4. Speed without urgency. AI buys time for better decisions.
-5. Ruthless simplicity. If it doesn't clarify, cut it.
-
----
-
 ## Active Workflows (2026)
 
-These are my daily workflows — prioritized by impact. Each one replaces what used to take a team or a week.
+My daily workflows, prioritized by impact.
 
-### Research → Executive & Board Ready
-Web research → Claude Code → Interactive HTML → Vercel
-Turn raw intelligence into deployed analysis tools — e.g., competitive dashboards, market prioritization.
+### Research to Executive & Board Ready
+Web research > Claude Code > Interactive HTML > Vercel
+Turn raw intelligence into deployed analysis tools, e.g., competitive dashboards, market prioritization.
 
-### Strategy → Stakeholder Deck
-Markdown docs → Claude Code → Presentation-ready materials
+### Strategy to Stakeholder Deck
+Markdown docs > Claude Code > Presentation-ready materials
 
-### Idea → Working Prototype
-Concept → Claude Code → GitHub → Deploy
+### Idea to Working Prototype
+Concept > Claude Code > GitHub > Deploy
 Ship working prototypes in hours, not weeks.
 
-### Meeting → Action
-AI capture → Automated extraction → Knowledge base
+### Meeting to Action
+AI capture > Automated extraction > Knowledge base
 
 ### This Page
 Auto-updated as I build
@@ -119,14 +122,21 @@ This living record updates itself. As I build new tools and workflows, they're a
 
 The stack that lets me build and ship without waiting on anyone. Total weekly savings: 16+ hours.
 
-| Tool | Purpose | Setup | Saves/Week |
-|------|---------|-------|------------|
-| AI Coding Agent | Build, edit, and ship from natural language | 1 hr | 8 hrs |
-| Meeting Intelligence | Auto-capture and extract action items | 15 min | 3 hrs |
-| Rapid Prototyping | Turn prompts into deployed web apps | 30 min | 2 hrs |
-| Instant Deploy | Ship to production from terminal | 10 min | 1 hr |
-| Workflow Automation | Connect tools and eliminate manual steps | 1 hr | 2 hrs |
+| Tool | Example | Purpose | Setup | Saves/Week |
+|------|---------|---------|-------|------------|
+| AI Coding | Claude Code | Build, edit, and ship from natural language | 1 hr | 8 hrs |
+| Meeting Intelligence | Granola | Auto-capture and extract action items | 15 min | 3 hrs |
+| Rapid Prototyping | Lovable | Turn prompts into deployed web apps | 30 min | 2 hrs |
+| Instant Deploy | Vercel | Ship to production from terminal | 10 min | 1 hr |
+| Workflow Automation | Zapier | Connect tools and eliminate manual steps | 1 hr | 2 hrs |
 
 ---
 
-© 2026 Navya Rehani Gupta
+## Compare Notes
+
+If you're building something similar or want to compare notes, I'd love to hear from you.
+Connect on LinkedIn: https://www.linkedin.com/in/navyarehani/
+
+---
+
+(c) 2026 Navya Rehani Gupta

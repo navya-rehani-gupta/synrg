@@ -4,16 +4,17 @@ import type { LucideIcon } from "lucide-react";
 
 const tools: Array<{
   name: string;
+  example: string;
   purpose: string;
   setup: string;
   savedPerWeek: string;
   icon: LucideIcon;
 }> = [
-  { name: "AI Coding Agent", purpose: "Build, edit, and ship from natural language", setup: "1 hr", savedPerWeek: "8 hrs", icon: Terminal },
-  { name: "Meeting Intelligence", purpose: "Auto-capture and extract action items", setup: "15 min", savedPerWeek: "3 hrs", icon: Mic },
-  { name: "Rapid Prototyping", purpose: "Turn prompts into deployed web apps", setup: "30 min", savedPerWeek: "2 hrs", icon: Heart },
-  { name: "Instant Deploy", purpose: "Ship to production from terminal", setup: "10 min", savedPerWeek: "1 hr", icon: Triangle },
-  { name: "Workflow Automation", purpose: "Connect tools and eliminate manual steps", setup: "1 hr", savedPerWeek: "2 hrs", icon: Zap },
+  { name: "AI Coding", example: "Claude Code", purpose: "Build, edit, and ship from natural language", setup: "1 hr", savedPerWeek: "8 hrs", icon: Terminal },
+  { name: "Meeting Intelligence", example: "Granola", purpose: "Auto-capture and extract action items", setup: "15 min", savedPerWeek: "3 hrs", icon: Mic },
+  { name: "Rapid Prototyping", example: "Lovable", purpose: "Turn prompts into deployed web apps", setup: "30 min", savedPerWeek: "2 hrs", icon: Heart },
+  { name: "Instant Deploy", example: "Vercel", purpose: "Ship to production from terminal", setup: "10 min", savedPerWeek: "1 hr", icon: Triangle },
+  { name: "Workflow Automation", example: "Zapier", purpose: "Connect tools and eliminate manual steps", setup: "1 hr", savedPerWeek: "2 hrs", icon: Zap },
 ];
 
 const SynrgyTools = () => {
@@ -45,7 +46,10 @@ const SynrgyTools = () => {
                 <div className="p-2 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
                   <tool.icon className="w-4 h-4 text-primary" />
                 </div>
-                <span className="font-semibold text-foreground">{tool.name}</span>
+                <div>
+                  <span className="font-semibold text-foreground">{tool.name}</span>
+                  <span className="text-xs text-muted-foreground ml-2">e.g. {tool.example}</span>
+                </div>
               </div>
               <p className="text-sm text-muted-foreground mt-2">{tool.purpose}</p>
               <div className="flex gap-4 mt-3 text-xs">

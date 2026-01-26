@@ -116,12 +116,11 @@ const HowIUseAI = () => {
         ref={headerRef as React.RefObject<HTMLDivElement>}
         className={headerVisible ? 'animate-fade-in' : 'opacity-0'}
       >
-        <h2 className="text-2xl md:text-3xl font-bold mb-4">How I use AI</h2>
+        <h2 id="how-i-operate-heading" className="text-2xl md:text-3xl font-bold mb-4">How I Think and Operate</h2>
         <p className="text-muted-foreground mb-10 max-w-2xl leading-relaxed">
-          AI is how I think, build, and ship. It surfaces trade-offs, accelerates research,
-          and turns ideas into working tools. I stay accountable for judgment and decisions.
+          AI is how I think, build, and ship. It surfaces trade-offs, accelerates research, and turns ideas into working tools.
         </p>
-        
+
         <h3 className="text-lg font-semibold text-muted-foreground mb-6">Common use cases</h3>
       </div>
       

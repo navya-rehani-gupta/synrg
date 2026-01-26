@@ -3,10 +3,10 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const principles = [
   "Clarity over cleverness",
-  "AI amplifies judgment. It doesn't replace it.",
-  "First drafts are cheap, decisions are not",
-  "Speed without urgency. AI buys time for better decisions.",
-  "Ruthless simplicity. If it doesn't clarify, cut it.",
+  "AI amplifies judgment, not replaces it",
+  "First drafts are cheap. Decisions are not.",
+  "Speed without urgency",
+  "Ruthless simplicity",
 ];
 
 const PrincipleItem = ({ principle, index }: { principle: string; index: number }) => {
@@ -33,9 +33,9 @@ const Principles = () => {
         ref={headerRef as React.RefObject<HTMLDivElement>}
         className={headerVisible ? 'animate-fade-in' : 'opacity-0'}
       >
-        <h2 className="text-2xl md:text-3xl font-bold mb-4">Operating principles</h2>
+        <h2 id="principles-heading" className="text-2xl md:text-3xl font-bold mb-4">Operating Principles</h2>
         <p className="text-muted-foreground mb-10 max-w-2xl leading-relaxed">
-          These guide how I use AI and how I expect my team to use it.
+          How I show up under pressure. These guide how I use AI and how I expect my team to use it.
         </p>
       </div>
       
