@@ -19,7 +19,7 @@ When tools are easy, the human layer is what separates good from great. That's t
 How I show up under pressure. These guide how I use AI and how I expect my team to use it.
 
 1. Clarity over cleverness
-2. AI amplifies judgment, not replaces it
+2. Judgment first, tools second
 3. First drafts are cheap. Decisions are not.
 4. Speed without urgency
 5. Ruthless simplicity

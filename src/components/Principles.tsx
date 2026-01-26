@@ -3,7 +3,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const principles = [
   "Clarity over cleverness",
-  "AI amplifies judgment, not replaces it",
+  "Judgment first, tools second",
   "First drafts are cheap. Decisions are not.",
   "Speed without urgency",
   "Ruthless simplicity",
