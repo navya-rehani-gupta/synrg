@@ -40,15 +40,15 @@ const Hero = () => {
             </a>
           </div>
 
-          <p className="text-lg md:text-xl text-foreground mb-3 max-w-lg">
-            AI is not a shortcut. <span className="text-primary font-medium">It's my operating system.</span>
+          <p className="text-xl md:text-2xl font-semibold text-foreground mb-4 max-w-lg leading-snug">
+            AI is not a shortcut. <span className="text-primary">It's my operating system.</span>
           </p>
 
-          <p className="text-base md:text-lg text-muted-foreground mb-4 max-w-lg leading-relaxed">
+          <p className="text-base text-muted-foreground mb-3 max-w-lg leading-relaxed">
             I don't just use AI. I build with it. It helps me stay clear-headed at high-stakes altitude, not replace thinking.
           </p>
 
-          <p className="text-base md:text-lg text-muted-foreground mb-10 max-w-lg leading-relaxed">
+          <p className="text-base text-muted-foreground mb-10 max-w-lg leading-relaxed">
             That's the real synergy — me plus the machine.
           </p>
 
