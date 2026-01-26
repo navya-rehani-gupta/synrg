@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://synrgy.lovable.app/sitemap.xml
+Sitemap: https://synrgy-nrg.com/sitemap.xml
