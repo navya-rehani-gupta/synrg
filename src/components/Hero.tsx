@@ -41,7 +41,7 @@ const Hero = () => {
           </div>
 
           <p className="text-xl md:text-2xl font-semibold text-foreground mb-4 max-w-lg leading-snug">
-            AI is not a shortcut. <span className="text-primary">It's my operating system.</span>
+            AI is not a shortcut. It's my operating system.
           </p>
 
           <p className="text-base text-muted-foreground mb-3 max-w-lg leading-relaxed">
@@ -49,7 +49,7 @@ const Hero = () => {
           </p>
 
           <p className="text-base text-muted-foreground mb-10 max-w-lg leading-relaxed">
-            That's the real synergy — me plus the machine.
+            That's the real synergy: me plus the machine.
           </p>
 
           <button
