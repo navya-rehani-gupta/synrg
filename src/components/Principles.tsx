@@ -33,7 +33,9 @@ const Principles = () => {
         ref={headerRef as React.RefObject<HTMLDivElement>}
         className={headerVisible ? 'animate-fade-in' : 'opacity-0'}
       >
-        <h2 id="principles-heading" className="text-2xl md:text-3xl font-bold mb-4">Principles That Drive syNRGy</h2>
+        <h2 id="principles-heading" className="text-2xl md:text-3xl font-bold mb-4">
+          Principles That Drive <span className="text-primary">sy</span>NRG<span className="text-primary">y</span>
+        </h2>
         <p className="text-muted-foreground mb-10 max-w-2xl leading-relaxed">
           How I show up under pressure. These guide how I use AI and how I expect my team to use it.
         </p>
