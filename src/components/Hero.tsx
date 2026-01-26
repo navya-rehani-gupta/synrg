@@ -49,7 +49,7 @@ const Hero = () => {
           </p>
 
           <p className="text-base md:text-lg text-muted-foreground mb-10 max-w-lg leading-relaxed">
-            When tools are easy, the human layer is what separates good from great. That's the real synergy.
+            That's the real synergy — me plus the machine.
           </p>
 
           <button
