@@ -5,7 +5,7 @@ const principles = [
   "Clarity over cleverness",
   "Judgment first, tools second",
   "First drafts are cheap. Decisions are not.",
-  "Speed without urgency",
+  "Move fast, stay deliberate",
   "Ruthless simplicity",
 ];
 
